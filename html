@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>Chatbot JS</title>
+</head>
+<body>
+    <div id="chatbotContainer">
+        <div class="chatbot-contents">
+          <button id="closeChatBtn"><i class="fa fa-times" aria-hidden="true"></i>
+          </button>
+          <div class="responses">
+            <div id="responseInnerWrapper"></div>
+              <p id="botResponse"><img id="digibotImg" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/chatbot-5-902430.png?w=256&f=avif" width="40px">Hi! I'm Digibot, here to help assist you with www.thatdigitaldude.com!</p>
+              <p id="userResponse" class="hidden"></p>
+          </div>
+          <input type="text" placeholder="How can I help?" id="userInput"/>
+          <button id="chatBtn"><i class="fa-solid fa-paper-plane"></i> Send</button>
+          <span id="brandName">Developed by <a href="https://thatdigitaldude.com">That Digital Dude</a></span>
+        </div>
+      </div>
+      <div id="chatOpenBtn">
+          <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/chatbot-5-902430.png?w=256&f=avif">
+          <span id="notification">1</span>
+      </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
